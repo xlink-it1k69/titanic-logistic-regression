@@ -1,35 +1,80 @@
 # Titanic Survival Prediction using Logistic Regression
 
-## Objective
+## Overview
 
-Predict whether a passenger survived the Titanic disaster using Logistic Regression.
+This project predicts passenger survival on the Titanic using Logistic Regression.
 
-## Tech Stack
+The project covers the complete Machine Learning workflow, including:
 
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
+- Data exploration
+- Data preprocessing
+- Feature engineering
+- Model training
+- Model evaluation
+- Hyperparameter tuning
+- Model interpretation
 
 ## Project Structure
 
-```text
 data/
-docs/
+
 figures/
+
 models/
+
 notebooks/
+
 reports/
+
 src/
-```
 
-## Progress
+## Dataset
 
-- [x] Initialize project
-- [ ] Data Exploration
-- [ ] Data Preprocessing
-- [ ] Logistic Regression
-- [ ] Model Evaluation
-- [ ] Final Report
+Titanic dataset from Kaggle.
+
+Target variable
+
+- Survived
+
+Features
+
+- Age
+- Sex
+- Fare
+- Pclass
+- SibSp
+- Parch
+- Embarked
+
+## Workflow
+
+1. Data Overview
+2. Exploratory Data Analysis
+3. Data Cleaning
+4. Feature Encoding
+5. Train/Test Split
+6. Feature Scaling
+7. Logistic Regression
+8. Model Evaluation
+9. Hyperparameter Tuning
+10. Model Interpretation
+
+## Results
+
+Default Logistic Regression
+
+Accuracy: 82.68%
+
+Best Tuned Accuracy: 83.24%
+
+## Confusion Matrix
+
+![Confusion Matrix](figures/confusion_matrix.png)
+
+## Feature Importance
+
+![Feature Coefficients](figures/feature_coefficients.png)
+
+## Correlation Heatmap
+
+![Heatmap](figures/correlation_heatmap.png)
